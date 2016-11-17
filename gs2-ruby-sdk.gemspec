@@ -18,16 +18,16 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "gs2-ruby-sdk-auth", "~> 0.0.1"
-  spec.add_dependency "gs2-ruby-sdk-identifier", "~> 0.0.1"
-  spec.add_dependency "gs2-ruby-sdk-inbox", "~> 0.0.1"
-  spec.add_dependency "gs2-ruby-sdk-matchmaking", "~> 0.0.1"
-  spec.add_dependency "gs2-ruby-sdk-notification", "~> 0.0.1"
-  spec.add_dependency "gs2-ruby-sdk-ranking", "~> 0.0.1"
-  spec.add_dependency "gs2-ruby-sdk-realtime", "~> 0.0.1"
-  spec.add_dependency "gs2-ruby-sdk-stamina", "~> 0.0.1"
-  spec.add_dependency "gs2-ruby-sdk-timer", "~> 0.0.1"
-  spec.add_dependency "gs2-ruby-sdk-watch", "~> 0.0.1"
+  spec.add_dependency "gs2-ruby-sdk-auth", "~> 0.1.1"
+  spec.add_dependency "gs2-ruby-sdk-identifier", "~> 0.1.0"
+  spec.add_dependency "gs2-ruby-sdk-inbox", "~> 0.1.0"
+  spec.add_dependency "gs2-ruby-sdk-matchmaking", "~> 0.1.0"
+  spec.add_dependency "gs2-ruby-sdk-notification", "~> 0.1.0"
+  spec.add_dependency "gs2-ruby-sdk-ranking", "~> 0.1.0"
+  spec.add_dependency "gs2-ruby-sdk-realtime", "~> 0.1.0"
+  spec.add_dependency "gs2-ruby-sdk-stamina", "~> 0.1.0"
+  spec.add_dependency "gs2-ruby-sdk-timer", "~> 0.1.0"
+  spec.add_dependency "gs2-ruby-sdk-watch", "~> 0.1.0"
   
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
