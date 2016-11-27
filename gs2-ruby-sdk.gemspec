@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "gs2-ruby-sdk-realtime", "~> 0.1.0"
   spec.add_dependency "gs2-ruby-sdk-stamina", "~> 0.1.0"
   spec.add_dependency "gs2-ruby-sdk-timer", "~> 0.1.0"
-  spec.add_dependency "gs2-ruby-sdk-watch", "~> 0.1.0"
+  spec.add_dependency "gs2-ruby-sdk-watch", "~> 0.1.1"
   
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
